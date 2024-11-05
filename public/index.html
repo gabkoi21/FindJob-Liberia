@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>FindJobLineria</title>
+  </head>
+  <body>
+    <nav class="bg-slate-950 p-1">
+      <!-- This is the navitation -->
+      <div
+        class="flex items-center justify-between flex-wrap xl:mx-20 lg:mx-30"
+      >
+        <div class="text-white font-bold text-xl uppercase">
+          FindJob Liberia
+        </div>
+        <div class="flex items-center space-x-5">
+          <ul class="flex space-x-5">
+            <li class="white-text my-6">
+              <a href="#" class="hidden md:inline">Home</a>
+            </li>
+            <li class="white-text my-6">
+              <a href="#" class="hidden md:inline">About</a>
+            </li>
+            <li class="white-text my-6">
+              <a href="#" class="hidden md:inline">Services</a>
+            </li>
+            <li class="white-text my-6">
+              <a href="#" class="hidden md:inline">Contact</a>
+            </li>
+          </ul>
+          <div class="flex items-center space-x-3">
+            <span class="mdi mdi-bell text-red-700 text-xl"></span>
+            <a href="#">
+              <span class="mdi mdi-login text-gray-500 text-xl"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div
+        class="relative overflow-hidden bg-cover bg-no-repeat text-center"
+        style="
+          background-image: url('../public/img/heroimage.jpg');
+          height: 85vh;
+        "
+      >
+        <div class="absolute inset-0 bg-black opacity-60">
+          <div class="flex h-full items-center justify-center">
+            <div class="text-white px-4">
+              <h1
+                class="mb-6 text-4xl sm:text-4xl sm:mt font-semibold md:text-6xl lg:text-6xl sm:capitalize"
+              >
+                Bringing your dream  <br>job closer
+              </h1>
+              <button
+                type="button"
+                class="rounded border-2 border-neutral-50 px-4 py-2 text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+                data-twe-ripple-init
+                data-twe-ripple-color="light"
+              >
+                <a href="#"> Start Your Job Search Today!</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="flex justify-center sm:mx-24 sm:mb-4">
+      <div
+        class="flex justify-between items-center text-4xl pt-16 mx-10 w-full max-w-6xl"
+      >
+        <h3
+          class="font-semibold sm:whitespace-nowrap sm:mr-20 whitespace-nowrap text-xl"
+        >
+          Our Features Jobs
+        </h3>
+        <button
+          type="button"
+          class="rounded-full bg-black text-white px-5 py-1 text-xs font-medium capitalize flex items-center"
+        >
+          view all
+          <span class="mdi mdi-arrow-right text-lg"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- THis is the job features -->
+    <section class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-2 mx-10">
+      <div class="border rounded border-black shadow-lg p-4 m-2">
+        <div class="flex">
+          <p
+            class="border border-black text-sm rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Full Time
+          </p>
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Glendale CA
+          </p>
+        </div>
+        <div class="flex gap-2 items-center ml-2">
+          <span
+            class="mdi mdi-spotify text-xl border border-black rounded-full py-0 px-1 mt-2 text-[#1DBE10]"
+          ></span>
+          <p class="text-1xl font-bold">Product Manager</p>
+        </div>
+        <div>
+          <p
+            class="ml-5 sm:m-1 mt-4 sm:whitespace-nowrap sm:text-center sm:mt-3"
+          >
+            Marking | $2,000 -5,000 /Monthly
+          </p>
+        </div>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="border rounded border-black shadow-lg p-4 m-2">
+        <div class="flex">
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Full Time
+          </p>
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Glendale CA
+          </p>
+        </div>
+        <div class="flex gap-2 items-center ml-2">
+          <span
+            class="mdi mdi-pinterest text-xl border border-black rounded-full py-0 px-1 mt-2 text-[#C62E2E]"
+          ></span>
+          <p class="text-1xl mt-3 font-bold">Product Designer</p>
+        </div>
+        <p class="ml-5 sm:m-1 mt-4 sm:whitespace-nowrap sm:text-center sm:mt-3">
+          Marking | $2,000 -5,000 /Monthly
+        </p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="border rounded border-black shadow-lg p-4 m-2">
+        <div class="flex">
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Full Time
+          </p>
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Glendale CA
+          </p>
+        </div>
+        <div class="flex gap-2 items-center ml-2">
+          <span
+            class="mdi mdi-google text-xl border border-black rounded-full py-0 px-1 mt-2"
+          ></span>
+          <p class="text-1xl mt-3 font-bold">Recruiting Coordinator</p>
+        </div>
+        <p class="ml-5 sm:m-1 mt-4 sm:whitespace-nowrap sm:text-center sm:mt-3">
+          Marking | $2,000 -5,000 /Monthly
+        </p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="border rounded border-black shadow-lg p-4 m-2">
+        <div class="flex">
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Full Time
+          </p>
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Glendale CA
+          </p>
+        </div>
+        <div class="flex gap-2 items-center ml-2">
+          <span
+            class="mdi mdi-facebook text-xl border border-black rounded-full py-0 px-1 mt-2 text-[#4267B2]"
+          ></span>
+          <p class="text-1xl mt-3 font-bold">UI/UX Designer</p>
+        </div>
+        <p class="ml-5 sm:m-1 mt-4 sm:whitespace-nowrap sm:text-center sm:mt-3">
+          Marking | $2,000 -5,000 /Monthly
+        </p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="border rounded border-black shadow-lg p-4 m-2">
+        <div class="flex">
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Full Time
+          </p>
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Glendale CA
+          </p>
+        </div>
+        <div class="flex gap-2 items-center ml-2">
+          <span
+            class="mdi mdi-twitter text-xl border border-black rounded-full py-0 px-1 mt-2 text-[#1DA1F2]"
+          ></span>
+          <p class="text-1xl mt-3 font-bold">Marketing Specialist</p>
+        </div>
+        <p class="ml-5 sm:m-1 mt-4 sm:whitespace-nowrap sm:text-center sm:mt-3">
+          Marking | $2,000 -5,000 /Monthly
+        </p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="border rounded border-black shadow-lg p-4 m-2">
+        <div class="flex">
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Full Time
+          </p>
+          <p
+            class="border border-black rounded-full py-1 px-4 mx-1 shadow-md sm:text-sm"
+          >
+            Glendale CA
+          </p>
+        </div>
+        <div class="flex gap-2 items-center ml-2">
+          <span
+            class="mdi mdi-linkedin text-xl border border-black rounded-full py-0 px-1 mt-2 text-[#0077B5]"
+          ></span>
+          <p class="text-1xl mt-3 font-bold">Business Analyst</p>
+        </div>
+        <p class="ml-5 sm:m-1 mt-4 sm:whitespace-nowrap sm:text-center sm:mt-3">
+          Marking | $2,000 -5,000 /Monthly
+        </p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+    </section>
+  </body>
+</html>
