@@ -12,6 +12,6 @@
   }
 
   .apply-btn {
-    @apply bg-white text-black border border-black font-bold py-1 px-20 mt-10  rounded-full sm:transition duration-300 hover:bg-black hover:text-white sm:text-sm capitalize sm:whitespace-nowrap;
+    @apply bg-white text-black border border-black font-bold py-1 px-20 mt-10  rounded-full sm:transition duration-300 hover:bg-black hover:text-white sm:text-sm capitalize sm:whitespace-nowrap md:w-full md:text-center md:flex md:justify-center md:items-center;
   }
 }
