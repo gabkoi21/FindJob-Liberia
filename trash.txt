@@ -1,0 +1,15 @@
+<!-- <div class="flex justify-between items-center ">
+      <h3
+        class="font-semibold sm:whitespace-nowrap sm:mr-2"
+      >
+        Our Features Jobs
+      </h3>
+      <button
+        type="button"
+        class="rounded-full bg-black sm:whitespace-nowrap text-white px-5 text-xs sm:text-xs font-medium c"
+      >
+        view all
+        <span class="mdi mdi-arrow-right text-lg ml-2"></span>
+      </button>
+    </div> -->
+    <!-- This for the fueature text and button  -->
