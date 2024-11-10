@@ -1,10 +1,8 @@
-{
-  import("tailwindcss").Config;
-}
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/index.html"],
+  content: ["./public/index.html", "./app.js"],
   theme: {
     extend: {},
   },
-  plugins: [require("tailwindcss-elevation")],
+  plugins: [require("flowbite/plugin")],
 };

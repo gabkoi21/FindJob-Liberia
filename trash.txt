@@ -13,3 +13,94 @@
       </button>
     </div> -->
     <!-- This for the fueature text and button  -->
+
+
+
+
+
+    <section class="flex justify-center space-x-4 mb-10 flex-wrap gap-5    ">
+      <!-- First Card -->
+      <div class="max-w-xs sm:max-w-md bg-white rounded-lg overflow-hidden">
+        <div>
+          <img
+            class="w-[100%] object-cover rounded-t-lg"
+            src="https://mdbootstrap.com/img/new/textures/small/148.jpg"
+            alt=""
+          />
+        </div>
+        <div class="p-4 text-surface shadow-md rounded-b-lg bg-gray-100">
+          <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
+          <p class="mb-4 text-base text-gray-700">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="flex items-center">
+            <a href="#" class="uppercase font-bold text-sm">Read More</a>
+            <span class="mdi mdi-arrow-right-thin text-3xl"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card -->
+      <div class="max-w-xs sm:max-w-md bg-white rounded-lg overflow-hidden">
+        <div>
+          <img
+            class="w-[100%] object-cover rounded-t-lg"
+            src="https://mdbootstrap.com/img/new/textures/small/148.jpg"
+            alt=""
+          />
+        </div>
+        <div class="p-4 text-surface shadow-md rounded-b-lg bg-gray-100">
+          <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
+          <p class="mb-4 text-base text-gray-700">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="flex items-center">
+            <a href="#" class="uppercase font-bold text-sm">Read More</a>
+            <span class="mdi mdi-arrow-right-thin text-3xl"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card -->
+      <div class="max-w-xs sm:max-w-md bg-white rounded-lg overflow-hidden">
+        <div>
+          <img
+            class="w-[100%] object-cover rounded-t-lg"
+            src="https://mdbootstrap.com/img/new/textures/small/148.jpg"
+            alt=""
+          />
+        </div>
+        <div class="p-4 text-surface shadow-lg rounded-b-lg bg-gray-100">
+          <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
+          <p class="mb-4 text-base text-gray-700">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="flex items-center">
+            <a href="#" class="uppercase font-bold text-sm">Read More</a>
+            <span class="mdi mdi-arrow-right-thin text-3xl"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
